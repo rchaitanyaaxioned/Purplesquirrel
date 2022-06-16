@@ -116,12 +116,16 @@ li {
 .color-purle {
   color: #6069D0;
 }
+
+.text-cap {
+  text-transform: uppercase;
+}
 /*=================================
   Header styling starts here
 =================================*/
 /*styling for header logo start here*/
 header {
-  border-bottom: 3px solid #B7B7B7;
+  
 }
 
 header .wrapper > h1 {
@@ -138,11 +142,6 @@ header .wrapper > h1::before {
   text-indent: 0;
 }
 /*styling for header logo end here*/
-
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -150,8 +149,131 @@ header .wrapper > h1::before {
 /*=================================
   main styling starts here
 =================================*/
+/*styling for manager section start here*/
+/*styling for article section start here*/
+.manager-section {
+  border-top: 3px solid #B7B7B7;
+  border-right: 3px solid #B7B7B7;
+  border-bottom: 3px solid #B7B7B7;
+}
 
+.manager-section .wrapper {
+  display: flex;
+}
 
+.manager-article {
+  width: 70%;
+}
+
+.manager-article h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-top: 5%;
+}
+
+.manager-article h2 > span {
+  margin-right: 10px;
+}
+
+.manager-article p {
+  margin: 1% 0;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.manager-article :nth-child(3) {
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+
+.manager-article :nth-child(4) {
+  margin-top: 0;
+}
+
+.manager-article :nth-child(5) {
+  font-size: 20px;
+  color: #767676;
+  text-transform: none;
+  padding-right: 18%;
+}
+
+.color-green {
+  color: #44C79D;
+}
+
+.manger-connect-btn > a {
+  color: #FFF;
+  background-color: #44C79D;
+  border: 1px solid #44C79D;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0 10px 40px 0;
+}
+/*styling for article section end here*/
+/*styling for aside section start here*/
+.manager-aside {
+  background-color: #6069D0;
+  width: 30%;
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #6069D0;
+  padding: 40% 0;
+  background: transparent;
+}
+
+.aside-container p {
+  background: transparent;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.aside-container p > span {
+  background: transparent;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.man-list {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 55px;
+  margin: 20px 0;
+}
+
+.man-list > li {
+  background: transparent;
+}
+
+.man-list li > span::after {
+  content: "\f002";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  background: transparent;
+}
+
+.btn-but-list {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-but-list > li > span {
+  background: transparent;
+}
+
+.dot-list {
+  background: transparent;
+}
+/*styling for aside section end here*/
+/*styling for manager section end here*/
 
 
 
