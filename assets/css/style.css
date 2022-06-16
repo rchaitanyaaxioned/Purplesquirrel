@@ -108,10 +108,36 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+* {
+  background-color: #FFF;
+}
+
+.color-purle {
+  color: #6069D0;
+}
 /*=================================
   Header styling starts here
 =================================*/
+/*styling for header logo start here*/
+header {
+  border-bottom: 3px solid #B7B7B7;
+}
 
+header .wrapper > h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5% 5% 2% 5%;
+  letter-spacing: 3px;
+}
+
+header .wrapper > h1::before {
+  content: "\f002";
+  font-family: "font-awesome";
+  text-indent: 0;
+}
+/*styling for header logo end here*/
 
 
 
