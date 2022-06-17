@@ -125,10 +125,11 @@ li {
 =================================*/
 /*styling for header logo start here*/
 header .wrapper > h1 {
-  font-size: 22px;
+  /*font-size: 22px;*/
+  font-size: 1.7vw;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 5% 5% 2% 5%;
+  margin: 4% 5% 2% 5%;
   letter-spacing: 3px;
 }
 
@@ -136,7 +137,8 @@ header .wrapper > h1::before {
   content: "\f71a";
   font-family: "Font Awesome Free 5";
   text-indent: 0;
-  font-size: 40px;
+  /*font-size: 40px;*/
+  font-size: 4vw;
 }
 /*styling for header logo end here*/
 /*=================================
@@ -160,10 +162,12 @@ header .wrapper > h1::before {
 
 .manager-article {
   width: 70%;
+  padding: 0 3%;
 }
 
 .manager-article h2 {
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size: 2.3vw;
   font-weight: bold;
   text-transform: capitalize;
   padding-top: 5%;
@@ -176,7 +180,8 @@ header .wrapper > h1::before {
 .manager-article p {
   margin: 1% 0;
   text-transform: capitalize;
-  font-size: 22px;
+  /*font-size: 22px;*/
+  font-size: 1.7vw;
 }
 
 .manager-article :nth-child(3) {
@@ -189,7 +194,8 @@ header .wrapper > h1::before {
 }
 
 .manager-article :nth-child(5) {
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 1.4vw;
   color: #767676;
   text-transform: none;
   padding-right: 18%;
@@ -209,8 +215,10 @@ header .wrapper > h1::before {
   border: 1px solid #44C79D;
   padding: 16px 15px;
   text-transform: uppercase;
-  font-size: 20px;
-  margin: 15px 15px 20px 0;
+  /*font-size: 20px;*/
+  font-size: 1.5vw;
+  margin: 15px 15px 15px 0;
+  border-radius: 2px;
 }
 /*styling for article section end here*/
 /*styling for aside section start here*/
@@ -225,19 +233,25 @@ header .wrapper > h1::before {
   justify-content: center;
   text-align: center;
   background-color: #6069D0;
-  padding: 20% 0;
+  padding: 15% 0;
   background: transparent;
+}
+
+.aside-container :first-child::first-letter{
+  text-transform: capitalize;
 }
 
 .aside-container p {
   background: transparent;
   color: #FFF;
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 1.5vw;
 }
 
 .aside-container p > span {
   background: transparent;
-  font-size: 35px;
+  /*font-size: 35px;*/
+  font-size: 2.4vw;
   line-height: 50px;
 }
 
@@ -277,7 +291,8 @@ header .wrapper > h1::before {
 
 .btn-but-list :first-child>span::before {
   content: "\f104";
-  font-size: 35px;
+  /*font-size: 35px;*/
+  font-size: 2.4vw;
   font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
@@ -286,7 +301,8 @@ header .wrapper > h1::before {
 
 .btn-but-list :last-child>span::after {
   content: "\f105";
-  font-size: 35px;
+  /*font-size: 35px;*/
+  font-size: 2.4vw;
   font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
@@ -340,7 +356,8 @@ header .wrapper > h1::before {
 
 .insider .wrapper > h2 {
   padding-left: 3%;
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size: 2.3vw;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -364,7 +381,8 @@ header .wrapper > h1::before {
 
 .insider-person h3 {
   padding: 10% 0 0 0;
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 1.5vw;
   color: #44C79D;
   font-weight: bold;
 }
@@ -374,7 +392,8 @@ header .wrapper > h1::before {
 }
 
 .insider-person p {
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1.3vw;
   text-transform: capitalize;
 }
 
@@ -391,7 +410,8 @@ header .wrapper > h1::before {
   font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size:2.3vw;
   padding: 0 5%;
 }
 
@@ -401,7 +421,8 @@ header .wrapper > h1::before {
 
 .insider-person :nth-child(6),:nth-child(7) {
   color: #666;
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: 1.2vw;
 } 
 
 .insider-list :nth-child(2) > div :nth-child(6) {
@@ -410,7 +431,8 @@ header .wrapper > h1::before {
 
 .insider-list :nth-child(2) > div :nth-child(7),:nth-child(8) {
   color: #666;
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: 1.2vw;
 }
 /*styling for insider section end here*/
 /*styling for how ps works section start here*/
@@ -420,7 +442,8 @@ header .wrapper > h1::before {
 
 .how-ps-work .wrapper > h2 {
   padding-left: 3%;
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size: 2.3vw;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -438,7 +461,8 @@ header .wrapper > h1::before {
 }
 
 .ps-works > h3 {
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 1.5vw;
   text-transform: capitalize;
   color: #666;
   margin: 5% 0;
@@ -448,7 +472,8 @@ header .wrapper > h1::before {
   text-align: center;
   padding: 0 5%;
   line-height: 25px;
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 1.3vw;
   color: #7E7E7E;
 }
 
@@ -471,7 +496,8 @@ header .wrapper > h1::before {
   text-transform: capitalize;
   background: transparent;
   color: #FFF;
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size: 2.3vw;
 }
 
 .test-top-list {
@@ -488,14 +514,16 @@ header .wrapper > h1::before {
 .test-top-list li p {
   text-align: center;
   margin: 0 10px;
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 1.5vw;
   background: transparent;
   color: #FFF;
 }
 
 .test-top-list :first-child > span::before {
   content: "\f104";
-  font-size: 35px;
+  /*font-size: 35px;*/
+  font-size: 2.4vw;
   font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
@@ -503,7 +531,8 @@ header .wrapper > h1::before {
 
 .test-top-list :last-child > span::after {
   content: "\f105";
-  font-size: 35px;
+  /*font-size: 35px;*/
+  font-size: 2.4vw;
   font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
@@ -575,14 +604,16 @@ header .wrapper > h1::before {
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
-}  
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .wrapper {
-    width: 100%;
-    margin: 0 auto;
-    padding: 1%;
+  /*For ipad*/
+  .ps-works {
+    font-size: small;
+    text-align: center;
   }
+}  
+/*media query for 995px end here*/
+/*media query for 480px starts here*/
+@media only screen and (max-width:480px) {
+  /* For iphone-potrait*/
+
 }
+/*media query for 480px end here*/
