@@ -124,10 +124,6 @@ li {
   Header styling starts here
 =================================*/
 /*styling for header logo start here*/
-header {
-  
-}
-
 header .wrapper > h1 {
   font-size: 22px;
   font-weight: bold;
@@ -137,8 +133,8 @@ header .wrapper > h1 {
 }
 
 header .wrapper > h1::before {
-  content: "\f002";
-  font-family: "font-awesome";
+  content: "\f71a";
+  font-family: "Font Awesome Free 5";
   text-indent: 0;
   font-size: 40px;
 }
@@ -258,8 +254,8 @@ header .wrapper > h1::before {
 }
 
 .man-list li > span::after {
-  content: "\f002";
-  font-family: "fontAwesome";
+  content: "\e220";
+  font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
 }
@@ -274,9 +270,57 @@ header .wrapper > h1::before {
   background: transparent;
 }
 
+.btn-but-list li {
+  background: transparent;
+  color: #FFF;
+}
+
+.btn-but-list :first-child>span::before {
+  content: "\f104";
+  font-size: 35px;
+  font-family: "Font Awesome Free 5";
+  text-indent: 0;
+  background: transparent;
+  padding-left: 150%;
+}
+
+.btn-but-list :last-child>span::after {
+  content: "\f105";
+  font-size: 35px;
+  font-family: "Font Awesome Free 5";
+  text-indent: 0;
+  background: transparent;
+  padding-right: 150%;
+}
+
+.btn-but-list :nth-child(2) {
+  background: transparent;
+  color: #FFF;
+}
+
+.btn-but-list :nth-child(2) {
+  line-height: 0.5;
+  text-align: center;
+}
+
+.btn-but-list :nth-child(2) > span {
+  display: inline-block;
+  position: relative;
+}
+
+.btn-but-list :nth-child(2) > span::before {
+  content: "";
+  position: absolute;
+  border-top: 1px solid white;
+  top: 50%;
+  bottom: 50%;
+  left:0;
+  width: 60px;
+}
+
 .dot-list li>span::after {
-  content: "\f002";
-  font-family: "Font Awesome 5 Brands";
+  content: "\e122";
+  font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
 }
@@ -343,13 +387,16 @@ header .wrapper > h1::before {
 }
 
 .star-list li > span::before {
-  content:"*";
+  content: "\e122";
+  font-family: "Font Awesome Free 5";
+  text-indent: 0;
+  background: transparent;
+  font-size: 30px;
+  padding: 0 5%;
 }
 
 .star-list {
-  margin: 10% 0;
-  display: flex;
-  justify-content: space-between;
+  padding: 10% 0;
 }
 
 .insider-person :nth-child(6),:nth-child(7) {
@@ -406,8 +453,8 @@ header .wrapper > h1::before {
 }
 
 .ps-works > span::after {
-  content: "\f002";
-  font-family: "Font Awesome 5 Brands";
+  content: "\f133";
+  font-family: "Font Awesome Free 5";
   text-indent: 0;
   font-size: 70px;
 }
@@ -447,17 +494,17 @@ header .wrapper > h1::before {
 }
 
 .test-top-list :first-child > span::before {
-  content: "\f002";
+  content: "\f104";
   font-size: 35px;
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
 }
 
 .test-top-list :last-child > span::after {
-  content: "\f002";
+  content: "\f105";
   font-size: 35px;
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Font Awesome Free 5";
   text-indent: 0;
   background: transparent;
 }
@@ -499,7 +546,7 @@ header .wrapper > h1::before {
 }
 
 .test-bottom-list li > span::after {
-  content: "\f002";
+  content: "\e122";
   font-family: "Font Awesome 5 Brands";
   text-indent: 0;
   background: transparent;
@@ -529,6 +576,13 @@ header .wrapper > h1::before {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
-
-
 }  
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1%;
+  }
+}
