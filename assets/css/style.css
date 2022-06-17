@@ -133,6 +133,12 @@ header .wrapper > h1 {
   letter-spacing: 3px;
 }
 
+header .wrapper > h1:hover {
+  color: #44C79D;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 header .wrapper > h1::before {
   content: "\f71a";
   font-family: "Font Awesome Free 5";
@@ -219,6 +225,12 @@ header .wrapper > h1::before {
   /*font-size: 1.5vw;*/
   margin: 15px 15px 15px 0;
   border-radius: 2px;
+}
+
+.manger-connect-btn > a:hover {
+  color: #FFF;
+  background-color: #6069D0;
+  border: 1px solid #6069D0;
 }
 /*styling for article section end here*/
 /*styling for aside section start here*/
@@ -609,11 +621,52 @@ header .wrapper > h1::before {
     font-size: small;
     text-align: center;
   }
+
+  .manger-connect-btn > a {
+    font-size: 10px;
+  }
 }  
 /*media query for 995px end here*/
 /*media query for 480px starts here*/
 @media only screen and (max-width:480px) {
   /* For iphone-potrait*/
+  .container,.manager-article,.manager-aside,.insider,.insider-person,.how-ps-work{
+    width: 100%;
+  }
 
+  .manager-section .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .how-ps-work .wrapper > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 10px 0;
+  }
+
+  .how-ps-work .wrapper > ul > li {
+    margin: 10px 0;
+    border-bottom: 1px solid #B7B7B7;
+  }
+
+  .ps-works {
+    font-size: small;
+    text-align: center;
+  }
+
+.insider-list {
+  margin: 3% 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.insider-list li {
+  margin: 10px 0;
+  border-bottom: 1px solid #B7B7B7;
+}
 }
 /*media query for 480px end here*/
