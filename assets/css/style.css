@@ -275,7 +275,7 @@ header .wrapper > h1::before {
 
 .dot-list li>span::after {
   content: "\f002";
-  font-family: "fontAwesome";
+  font-family: "Font Awesome 5 Brands";
   text-indent: 0;
   background: transparent;
 }
@@ -364,10 +364,53 @@ header .wrapper > h1::before {
   color: #666;
   font-size: 14px;
 }
-
 /*styling for insider section end here*/
+/*styling for how ps works section start here*/
+.how-ps-work .wrapper {
+  padding: 3% 0%;
+}
 
+.how-ps-work .wrapper > h2 {
+  padding-left: 3%;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 
+.how-ps-work .wrapper > ul {
+  margin: 5% 10% 0 10%;
+  display: flex;
+}
+
+.ps-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.ps-works > h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #666;
+  margin: 5% 0;
+}
+
+.ps-works > p {
+  text-align: center;
+  padding: 0 5%;
+  line-height: 25px;
+  font-size: 18px;
+  color: #7E7E7E;
+}
+
+.ps-works > span::after {
+  content: "\f002";
+  font-family: "Font Awesome 5 Brands";
+  text-indent: 0;
+  font-size: 70px;
+}
+/*styling for how ps works section end here*/
 
 
 /*=================================
