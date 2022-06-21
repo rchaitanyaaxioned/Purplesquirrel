@@ -120,17 +120,20 @@ li {
 .text-cap {
   text-transform: uppercase;
 }
+
+.text-small {
+  text-transform: lowercase;
+}
 /*=================================
   Header styling starts here
 =================================*/
 /*styling for header logo start here*/
 header .wrapper > h1 {
-  font-size: 22px;
-  /*font-size: 1.7vw;*/
-  font-weight: bold;
-  text-transform: uppercase;
   margin: 4% 5% 2% 5%;
+  font-size: 22px;
+  font-weight: bold;
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 header .wrapper > h1:hover {
@@ -326,24 +329,35 @@ header .wrapper > h1::before {
   color: #FFF;
 }
 
-.btn-but-list :nth-child(2) {
-  line-height: 0.5;
+.btn-but-list:nth-child(2) span {
+  margin: 100px auto;
+  color: #228B22;
   text-align: center;
-}
-
-.btn-but-list :nth-child(2) > span {
-  display: inline-block;
+  font-size: 30px;
+  max-width: 60px;
   position: relative;
 }
 
-.btn-but-list :nth-child(2) > span::before {
+.btn-but-list:nth-child(2) span::before{
   content: "";
-  position: absolute;
-  border-top: 1px solid white;
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  left: 0;
   top: 50%;
-  bottom: 50%;
-  left:0;
-  width: 60px;
+  position: absolute;
+}
+
+.btn-but-list:nth-child(2) span::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  right: 0;
+  top: 50%;
+  position: absolute;
 }
 
 .dot-list li>span::after {
