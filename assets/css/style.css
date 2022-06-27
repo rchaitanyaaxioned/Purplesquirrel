@@ -291,12 +291,25 @@ h1 {
 
 .insider-list {
   display: flex;
+  margin: 0 6%;
   justify-content: space-between;
+  text-align: center;
 }
 
-.insider-list li {
+.insider-person {
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.insider-person figure {
+  max-width: 177px;
+  max-height: 177px;
+  align-items: center;
+}
+
+
 
 /*
 .insider .wrapper {
