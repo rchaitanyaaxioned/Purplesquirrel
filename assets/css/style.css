@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,23 +98,38 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
 input[type='button'],
 input[type='submit'],
-button { cursor: pointer; }
+button {
+  cursor: pointer;
+}
 
 strong {
   font-weight: bold;
@@ -48,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -64,8 +155,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -76,8 +172,13 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -85,27 +186,45 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
   display: inline-block;
   list-style-type: none;
 }
+
 /* Common styling */
-.grey { color: #666; }
-.cap { text-transform: capitalize; }
-.up { text-transform: uppercase; }
-.center { text-align: center; }
-.bold { font-weight: bold; }
-.transition { transition: 1s all ease; }
+.grey {
+  color: #666;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.transition {
+  transition: 1s all ease;
+}
 
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
-  width: 92.62%; 
+  width: 92.62%;
   margin: 0 auto;
 }
 
@@ -113,7 +232,8 @@ li {
   background-color: #FFF;
 }
 
-.color-purple,.color-purle {
+.color-purple,
+.color-purle {
   color: #6069D0;
 }
 
@@ -128,6 +248,7 @@ li {
 .text-small {
   text-transform: lowercase;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -139,10 +260,11 @@ h1 {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 /*styling for header logo end here*/
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
@@ -164,7 +286,7 @@ h1 {
   font-size: 31px;
   font-weight: bold;
   text-transform: capitalize;
-} 
+}
 
 .main-content p:nth-child(2) {
   padding-bottom: 27px;
@@ -275,18 +397,20 @@ h1 {
 .active {
   color: #FFF;
 }
+
 /*styling for manager section end here*/
 
 /*styling for insider section start here*/
-.insider {
-  padding: 45px 2.5%;
+.insider .wrapper {
+  padding: 45px 2.5% 55px 2.5%;
+  border-bottom: 2px solid #B7B7B7;
 }
 
 .insider h2 {
   padding-bottom: 40px;
   font-size: 31px;
   font-weight: bold;
-  text-transform: capitalize;  
+  text-transform: capitalize;
 }
 
 .insider-list {
@@ -306,100 +430,54 @@ h1 {
 .insider-person figure {
   max-width: 177px;
   max-height: 177px;
+  margin-bottom: 22px;
   align-items: center;
-}
-
-
-
-/*
-.insider .wrapper {
-  border-bottom: 3px solid #B7B7B7;
-  padding: 3% 0%; 
-}
-
-.insider .wrapper > h2 {
-  padding-left: 3%;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.insider-list {
-  margin: 3% 8%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.insider-person {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.insider-person figure img {
-  max-height: 174px;
-  max-width: 177px;
 }
 
 .insider-person h3 {
-  padding: 10% 0 0 0;
-  font-size: 20px;
-  color: #44C79D;
+  margin-bottom: 20px;
+  font-size: 25px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
-.insider-list :nth-child(2) > div :nth-child(3) {
-  padding-top:0;
+.insider-person h3 a {
+  color: #65C3A3;
 }
 
-.insider-person p {
-  font-size: 16px;
+.line-break::before {
+  content: "\a";
+  white-space: pre;
+}
+
+.insider-list li p:nth-child(3) {
+  margin-bottom: 20px;
+  color: #717171;
+  font-size: 18px;
+  font-weight: bold;
   text-transform: capitalize;
 }
 
-.insider-person :nth-child(3) {
-  margin-top: 10%;
+.star-list li {
+  margin-bottom: 20px;
+  color: #6069CF;
+  font-size: 25px;
 }
 
-.insider-list :nth-child(2) > div :nth-child(4) {
-  margin-top: 10%;
+.insider-list li p:nth-child(5) {
+  color: #A8A8A8;
+  font-size: 17px;
+  text-transform: capitalize;
 }
-
-.star-list li > span::before {
-  content: "\e122";
-  font-family: "Font Awesome Free 5";
-  text-indent: 0;
-  background: transparent;
-  font-size: 30px;
-  padding: 0 5%;
-}
-
-.star-list {
-  padding: 10% 0;
-}
-
-.insider-person :nth-child(6),:nth-child(7) {
-  color: #666;
-  font-size: 14px;
-} 
-
-.insider-list :nth-child(2) > div :nth-child(6) {
-  color: #000;
-}
-
-.insider-list :nth-child(2) > div :nth-child(7),:nth-child(8) {
-  color: #666;
-  font-size: 14px;
-}
-*/
 
 /*styling for insider section end here*/
+
 /*styling for how ps works section start here*/
 .how-ps-work .wrapper {
   padding: 3% 0%;
 }
 
-.how-ps-work .wrapper > h2 {
+.how-ps-work .wrapper>h2 {
   padding-left: 3%;
   font-size: 30px;
   /*font-size: 2.3vw;*/
@@ -407,7 +485,7 @@ h1 {
   text-transform: capitalize;
 }
 
-.how-ps-work .wrapper > ul {
+.how-ps-work .wrapper>ul {
   margin: 5% 10% 0 10%;
   display: flex;
 }
@@ -419,7 +497,7 @@ h1 {
   margin: 0 25px;
 }
 
-.ps-works > h3 {
+.ps-works>h3 {
   font-size: 20px;
   /*font-size: 1.5vw;*/
   text-transform: capitalize;
@@ -427,7 +505,7 @@ h1 {
   margin: 5% 0;
 }
 
-.ps-works > p {
+.ps-works>p {
   text-align: center;
   padding: 0 5%;
   line-height: 25px;
@@ -436,15 +514,16 @@ h1 {
   color: #7E7E7E;
 }
 
-.ps-works > span::after {
+.ps-works>span::after {
   content: "\f133";
   font-family: "Font Awesome Free 5";
   text-indent: 0;
   font-size: 70px;
 }
+
 /*styling for how ps works section end here*/
 /*styling for testimonial section start here*/
-.testimonial .wrapper{
+.testimonial .wrapper {
   border-top: 3px solid #B7B7B7;
   background-color: #6069D0;
   margin-bottom: 2%;
@@ -479,7 +558,7 @@ h1 {
   color: #FFF;
 }
 
-.test-top-list :first-child > span::before {
+.test-top-list :first-child>span::before {
   content: "\f104";
   font-size: 35px;
   /*font-size: 2.4vw;*/
@@ -488,7 +567,7 @@ h1 {
   background: transparent;
 }
 
-.test-top-list :last-child > span::after {
+.test-top-list :last-child>span::after {
   content: "\f105";
   font-size: 35px;
   /*font-size: 2.4vw;*/
@@ -503,16 +582,16 @@ h1 {
   padding-left: 2%;
 }
 
-.test-top-list :last-child { 
+.test-top-list :last-child {
   background: transparent;
   color: #FFF;
   padding-right: 2%;
 }
 
-.test-top-list > li > span {
+.test-top-list>li>span {
   background: transparent;
   color: #FFF;
-  
+
 }
 
 .test-bottom-list {
@@ -533,7 +612,7 @@ h1 {
   background: transparent;
 }
 
-.test-bottom-list li > span::after {
+.test-bottom-list li>span::after {
   content: "\e122";
   font-family: "Font Awesome 5 Brands";
   text-indent: 0;
@@ -548,7 +627,7 @@ h1 {
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
 
 
@@ -556,37 +635,50 @@ h1 {
 
 
 
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /* remove hover effet from mobile */
 @media only screen and (min-width: 1024px) {
   .connect-btns a:hover {
-      background-color: #FFF;
-      color: #65C3A3;
-    }
+    background-color: #FFF;
+    color: #65C3A3;
+  }
+
+  .insider-person h3 a:hover {
+    color: #6069CF;
+    text-decoration: underline;
+  }
 }
 
 
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+
   /*For ipad*/
   .ps-works {
     font-size: small;
     text-align: center;
   }
 
-  .manger-connect-btn > a {
+  .manger-connect-btn>a {
     font-size: 10px;
   }
-}  
+}
+
 /*media query for 995px end here*/
 /*media query for 480px starts here*/
 @media only screen and (max-width:480px) {
+
   /* For iphone-potrait*/
-  .container,.manager-article,.manager-aside,.insider,.insider-person,.how-ps-work{
+  .container,
+  .manager-article,
+  .manager-aside,
+  .insider,
+  .insider-person,
+  .how-ps-work {
     width: 100%;
   }
 
@@ -595,14 +687,14 @@ h1 {
     flex-direction: column;
   }
 
-  .how-ps-work .wrapper > ul {
+  .how-ps-work .wrapper>ul {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 5px 0 10px 0;
   }
 
-  .how-ps-work .wrapper > ul > li {
+  .how-ps-work .wrapper>ul>li {
     margin: 10px 0;
     border-bottom: 1px solid #B7B7B7;
   }
@@ -612,17 +704,18 @@ h1 {
     text-align: center;
   }
 
-.insider-list {
-  margin: 3% 8%;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  align-items: center;
+  .insider-list {
+    margin: 3% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .insider-list li {
+    margin: 10px 0;
+    border-bottom: 1px solid #B7B7B7;
+  }
 }
 
-.insider-list li {
-  margin: 10px 0;
-  border-bottom: 1px solid #B7B7B7;
-}
-}
 /*media query for 480px end here*/
