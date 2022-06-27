@@ -117,8 +117,12 @@ li {
   color: #6069D0;
 }
 
-.text-cap {
+.text-upper {
   text-transform: uppercase;
+}
+
+.text-cap {
+  text-transform: capitalize;
 }
 
 .text-small {
@@ -128,27 +132,14 @@ li {
   Header styling starts here
 =================================*/
 /*styling for header logo start here*/
-header .wrapper > h1 {
-  margin: 4% 5% 2% 5%;
+h1 {
+  margin: 40px 5% 20px 3%;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
-header .wrapper > h1:hover {
-  color: #44C79D;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-header .wrapper > h1::before {
-  content: "\f71a";
-  font-family: "Font Awesome Free 5";
-  text-indent: 0;
-  font-size: 40px;
-  /*font-size: 4vw;*/
-}
 /*styling for header logo end here*/
 /*=================================
   Header styling ends here
