@@ -113,7 +113,7 @@ li {
   background-color: #FFF;
 }
 
-.color-purple {
+.color-purple,.color-purle {
   color: #6069D0;
 }
 
@@ -257,6 +257,10 @@ h1 {
   text-align: center;
 }
 
+.dot-list {
+  background: transparent;
+}
+
 .dot-list li {
   margin: 0 0.5%;
   background: transparent;
@@ -274,6 +278,27 @@ h1 {
 /*styling for manager section end here*/
 
 /*styling for insider section start here*/
+.insider {
+  padding: 45px 2.5%;
+}
+
+.insider h2 {
+  padding-bottom: 40px;
+  font-size: 31px;
+  font-weight: bold;
+  text-transform: capitalize;  
+}
+
+.insider-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.insider-list li {
+  width: 30%;
+}
+
+/*
 .insider .wrapper {
   border-bottom: 3px solid #B7B7B7;
   padding: 3% 0%; 
@@ -282,7 +307,6 @@ h1 {
 .insider .wrapper > h2 {
   padding-left: 3%;
   font-size: 30px;
-  /*font-size: 2.3vw;*/
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -307,7 +331,6 @@ h1 {
 .insider-person h3 {
   padding: 10% 0 0 0;
   font-size: 20px;
-  /*font-size: 1.5vw;*/
   color: #44C79D;
   font-weight: bold;
 }
@@ -318,7 +341,6 @@ h1 {
 
 .insider-person p {
   font-size: 16px;
-  /*font-size: 1.3vw;*/
   text-transform: capitalize;
 }
 
@@ -336,7 +358,6 @@ h1 {
   text-indent: 0;
   background: transparent;
   font-size: 30px;
-  /*font-size:2.3vw;*/
   padding: 0 5%;
 }
 
@@ -347,7 +368,6 @@ h1 {
 .insider-person :nth-child(6),:nth-child(7) {
   color: #666;
   font-size: 14px;
-  /*font-size: 1.2vw;*/
 } 
 
 .insider-list :nth-child(2) > div :nth-child(6) {
@@ -357,8 +377,9 @@ h1 {
 .insider-list :nth-child(2) > div :nth-child(7),:nth-child(8) {
   color: #666;
   font-size: 14px;
-  /*font-size: 1.2vw;*/
 }
+*/
+
 /*styling for insider section end here*/
 /*styling for how ps works section start here*/
 .how-ps-work .wrapper {
