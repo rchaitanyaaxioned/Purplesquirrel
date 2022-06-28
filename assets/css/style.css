@@ -331,27 +331,68 @@ h1 {
 }
 
 .slider {
-  /* width: 32%; */
+  display: flex;
   position: relative;
-  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
   flex-basis: 30%;
+  justify-content: center;
 }
 
 .img-hide {
   display: none;
 }
 
+.silder-img {
+  width: 100%;
+  height: 100%;
+}
+
+.silder-img li {
+  width: 100%;
+  height: 100%;
+}
+
+.silder-img li img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-btn {
+  position: absolute;
+}
+
+.dot-list {
+  position: absolute;
+}
+
+
+/*
+.slider {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 30%;
+  justify-content: center;
+}
+
 .slider-img {
   width: 100%;
   height: 100%;
-  /* position: absolute; */
 }
 
-.slider-img figure {
+.slider ul li {
+  width: 100%;
   height: 100%;
 }
 
-.slider-img figure img {
+.img-hide {
+  display: none;
+}
+
+.slider-img li img {
   height: 100%;
 }
 
@@ -371,17 +412,13 @@ h1 {
 
 .prev-btn {
   padding-left: 5%;
-/*position: absolute;
-  left: 0; */
   background: transparent;
   color: #FFF;
   font-size: 45px;
 }
 
 .next-btn {
-   padding-right: 5%;
- /* position: absolute;
-  right: 0; */
+  padding-right: 5%;
   background: transparent;
   color: #FFF;
   font-size: 45px;
@@ -410,7 +447,7 @@ h1 {
 .active {
   color: #FFF;
 }
-
+*/
 /*styling for manager section end here*/
 
 /*styling for insider section start here*/
