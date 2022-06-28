@@ -222,9 +222,10 @@ li {
 }
 
 /*for wrapper*/
+/*for 1496px width*/
 .wrapper {
   max-width: 1350px;
-  width: 92.62%;
+  width: 96.26%;
   margin: 0 auto;
 }
 
@@ -254,7 +255,7 @@ li {
 =================================*/
 /*styling for header logo start here*/
 h1 {
-  margin: 40px 5% 20px 3%;
+  margin: 42px 1% 30px 1%;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 3px;
