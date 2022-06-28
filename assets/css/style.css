@@ -538,11 +538,16 @@ h1 {
 }
 
 .test-content {
-  padding-bottom: 45px;
+  padding-bottom: 55px;
+  position: relative;
   background: transparent;
 }
 
-.test-content>p {
+.test-para {
+  background: transparent;
+}
+
+.test-para p {
   background: transparent;
   font-size: 20px;
   text-align: center;
@@ -550,6 +555,29 @@ h1 {
 
 .test-content p span {
   background: transparent;
+}
+
+.test-slider-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 5%;
+  background: transparent;
+}
+
+.test-slider-btn a {
+  background: transparent;
+  color: #FFF;
+  font-size: 45px;
+}
+
+.test-prev-btn {
+  margin-left: 4%;
+}
+
+.test-next-btn {
+  margin-right: 4%;
 }
 
 
