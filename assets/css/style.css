@@ -332,6 +332,7 @@ h1 {
 .slider {
   width: 32%;
   position: relative;
+  overflow: hidden;
 }
 
 .img-hide {
@@ -339,6 +340,7 @@ h1 {
 }
 
 .slider-img {
+  width: 100%;
   position: absolute;
 }
 
@@ -347,9 +349,8 @@ h1 {
 }
 
 .slider-btn {
-  top: 50%;
-  bottom: 50%;
   position: relative;
+  top: 45%;
   z-index: 1;
 }
 
@@ -374,7 +375,7 @@ h1 {
 .dot-list {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
   z-index: 1;
   background: transparent;
   text-align: center;
